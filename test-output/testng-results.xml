@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-18T20:07:54 IST" name="Default suite" finished-at="2025-09-18T20:07:55 IST" duration-ms="848">
+  <suite started-at="2025-09-18T21:03:23 IST" name="Default suite" finished-at="2025-09-18T21:03:24 IST" duration-ms="934">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.eq.runner.RunnerTest@3bd82cf5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-09-18T20:07:54 IST" name="Default test" finished-at="2025-09-18T20:07:55 IST" duration-ms="848">
+    <test started-at="2025-09-18T21:03:23 IST" name="Default test" finished-at="2025-09-18T21:03:24 IST" duration-ms="934">
       <class name="com.eq.runner.RunnerTest">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.eq.runner.RunnerTest@3bd82cf5]" started-at="2025-09-18T20:07:54 IST" name="setUpClass" finished-at="2025-09-18T20:07:55 IST" duration-ms="618" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.eq.runner.RunnerTest@3bd82cf5]" started-at="2025-09-18T21:03:23 IST" name="setUpClass" finished-at="2025-09-18T21:03:23 IST" duration-ms="692" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@70f43b45]]>
+                <![CDATA[org.testng.TestRunner@733037]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.eq.runner.RunnerTest@3bd82cf5]" started-at="2025-09-18T20:07:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-18T20:07:55 IST" duration-ms="145" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.eq.runner.RunnerTest@3bd82cf5]" started-at="2025-09-18T21:03:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-18T21:03:23 IST" duration-ms="148" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Valid New Resgitration"]]>
+                <![CDATA["Valid New Registration"]]>
               </value>
             </param>
             <param index="1">
@@ -34,36 +34,26 @@
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User have browser with github home page' is undefined.
-You can implement this step using the snippet(s) below:
-
-@Given("User have browser with github home page")
-public void user_have_browser_with_github_home_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User have browser with github home page' is undefined.
-You can implement this step using the snippet(s) below:
-
-@Given("User have browser with github home page")
-public void user_have_browser_with_github_home_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at ✽.User have browser with github home page(file:///C:/Users/ansarim/eclipse-workspace/BBDFramework/src/test/resources/feature/SignUp.feature:9)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.eq.runner.RunnerTest@3bd82cf5]" started-at="2025-09-18T20:07:55 IST" name="tearDownClass" finished-at="2025-09-18T20:07:55 IST" duration-ms="27" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.eq.runner.RunnerTest@3bd82cf5]" started-at="2025-09-18T21:03:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-18T21:03:23 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid New Registration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["SignUp"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.eq.runner.RunnerTest@3bd82cf5]" started-at="2025-09-18T21:03:24 IST" name="tearDownClass" finished-at="2025-09-18T21:03:24 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
